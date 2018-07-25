@@ -1,12 +1,14 @@
 {
   "name": "eslint-config-nedu-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "N-Educatio's base JS ESLint config, following Airbnb styleguide",
   "main": "index.js",
   "author": "Grzegorz Michlicki gmichlicki@n-educatio.pl",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.0.0"
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
   },
   "peerDependencies": {
     "eslint": "^5.0.1",
