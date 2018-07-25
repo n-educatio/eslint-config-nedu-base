@@ -42,5 +42,17 @@ module.exports = {
         location: 'start',
       },
     ],
+
+    /**
+     * increase max length to 160
+     * https://eslint.org/docs/rules/max-len
+     */
+    'max-len': ['error', 160, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
   },
 };
